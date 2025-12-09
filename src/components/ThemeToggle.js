@@ -35,7 +35,7 @@ export default function ThemeToggle() {
 						backgroundColor: `var(${
 							theme === "dark"
 								? "--bs-warning-bg-subtle"
-								: "--bs-secodary"
+								: "--bs-secondary"
 						})`,
 					}}
 				>
@@ -50,7 +50,7 @@ export default function ThemeToggle() {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
-							fill="currentColor"
+							fill="white"
 							width="24"
 							height="24"
 						>
