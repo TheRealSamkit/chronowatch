@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 * {
-	font-family: Georgia, serif;
+	font-family: "Inter", sans-serif;
 }
 
+/* ── Theme toggle ───────────────────────────── */
 .toggle {
 	width: 36px;
 	height: 36px;
@@ -21,20 +24,51 @@
 	grid-column: 1 / 1;
 	grid-row: 1 / 1;
 	line-height: 0.1;
+	transition: transform 0.4s ease;
 }
 
 .icon--sun {
 	transform: scale(0);
 }
 
-#switch:checked + .icon--moon {
+#switch:checked+.icon--moon {
 	transform: rotate(360deg) scale(0);
 }
 
-#switch:checked ~ .icon--sun {
+#switch:checked~.icon--sun {
 	transform: scale(1) rotate(360deg);
 }
 
-#switch:checked ~ .toggle {
-	background-color: var(--bs-warning-bg-subtle);
+/* ── List items ─────────────────────────────── */
+.list-group-item-action {
+	transition: background-color 0.15s ease;
+}
+
+/* ── Floating action button ─────────────────── */
+.btn.rounded-circle {
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn.rounded-circle:hover {
+	transform: scale(1.1);
+}
+
+.btn.rounded-circle:active {
+	transform: scale(0.95);
+}
+
+/* ── Badges ─────────────────────────────────── */
+.badge-padded {
+	padding: 0.35em 0.75em;
+	font-size: 0.78rem;
+	font-weight: 500;
+}
+
+/* ── Blankslate centering ───────────────────── */
+.blankslate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 1rem;
 }
