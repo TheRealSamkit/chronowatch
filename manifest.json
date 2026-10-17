@@ -1,0 +1,8 @@
+{
+	"short_name": "chronowatch",
+	"name": "App managing your watchlist",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

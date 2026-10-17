@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chronowatch/static/css/main.a1bf634a.css",
+    "main.js": "/chronowatch/static/js/main.df737ed2.js",
+    "index.html": "/chronowatch/index.html",
+    "main.a1bf634a.css.map": "/chronowatch/static/css/main.a1bf634a.css.map",
+    "main.df737ed2.js.map": "/chronowatch/static/js/main.df737ed2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1bf634a.css",
+    "static/js/main.df737ed2.js"
+  ]
+}
